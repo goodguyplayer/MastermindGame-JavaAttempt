@@ -1,4 +1,4 @@
-# CodeBreaker-JavaAttempt
+# MastermindGame-JavaAttempt
  An attempt at recreating a favorite game, "Code Breaker", in java, while documenting the process.
 
 
