@@ -1,7 +1,7 @@
 /**
  * This class is purely meant to call the other classes in the system.
  *
- * @author Nathan
+ * @author Nathan (goodguyplayer)
  * @Version 0
  * @since 2021-04-15
  */
