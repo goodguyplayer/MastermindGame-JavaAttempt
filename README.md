@@ -1,6 +1,8 @@
 # MastermindGame-JavaAttempt
  An attempt at recreating a favorite game, "Code Breaker", in java, while documenting the process.
 
+## Installation
+Clone this repository to your workplace and run main.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

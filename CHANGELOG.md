@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2021-04-15
+### Added
+- model Code that represents the code
+- model Player that represents the player instance
+- model Session that represents a game session
+- Main that calls the previous models.
+
+### Changed
+- pom.xml to include jUtil.
+
+
 ## [0.0.1] - 2021-04-14
 ### Added
 - This Changelog
