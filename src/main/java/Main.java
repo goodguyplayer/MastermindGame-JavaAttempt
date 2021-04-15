@@ -12,6 +12,6 @@ Changelog.:
 Version 0
     - Class created
  */
-public class main {
+public class Main {
 
 }
