@@ -13,6 +13,10 @@ import java.util.Scanner;
 /*
 Changelog.:
 
+Version 0.1
+    - updated setAttempt.
+        - Format string to lowercase
+
 Version 0
     - Added variables
     - Added constructor
@@ -66,6 +70,6 @@ public class Player {
      * @Author Nathan (goodguyplayer)
      */
     public void setAttempt(){
-        attempt = reader.nextLine();
+        attempt = reader.nextLine().toLowerCase();
     }
 }
