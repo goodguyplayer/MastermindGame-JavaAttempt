@@ -24,6 +24,7 @@ public class Session {
     Code code = new Code();
     int correct = 0;
     int incode = 0;
+    int wrong = 0;
 
 
     /**
@@ -40,12 +41,27 @@ public class Session {
 
             for (int i = 0; i < 4; i++) {
                 if(checkLetterMatch(i)){
-                    correct ++;
+                    correct++;
+                } else if(checkInCode(i)){
+                    incode++;
+                } else {
+                    wrong++;
                 }
+            }
+            System.out.println("There are " + correct + "  letters that matches the code and are in the right position.");
+            System.out.println("There are " + incode + "  letters that matches the code  but are in the wrong position.");
+            System.out.println("There are " + wrong + "  letters that doesn't match the code.");
 
+            correct = 0;
+            incode = 0;
+            wrong = 0;
 
+            if (correct == 4){
+                status = false;
             }
         }
+        System.out.println("Congratulations, you got the code.");
+        System.out.println("Your score was of " + player.getScore());
 
     }
 
